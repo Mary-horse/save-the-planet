@@ -1,0 +1,1035 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Icomoon", sans-serif;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+* >:after {
+	font-family: "Icomoon", sans-serif
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.block1 {
+	width: 100%;
+	background: url(img/planet6.gif);
+	background-size: cover;
+	height: 700px;
+	overflow-y: hidden;
+}
+
+.earth {
+	width: 1600px;
+	height: 700px;
+}
+
+.logo-btn {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: ;
+	/*margin-right: 250px;*/
+}
+
+.logotype {
+	height: 35px;
+	/*margin-right: 7px;*/
+	cursor: pointer;
+}
+
+.txt {
+	margin-top: 5px;
+	margin-left: 7px;
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 500;
+	font-family: "Baloo Paaji 2";
+	white-space: nowrap;
+}
+
+.menu-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20px;
+	padding-left: 50px;
+	padding-right: 10px;
+	position: sticky;
+  	top: 0;
+  	width: 95%;
+  	overflow: hidden;
+}
+
+.sticky {
+	z-index: 100;
+	position: fixed;
+	top: 0;
+}
+
+.backg {
+	margin-top: 0;
+	background: #000033;
+	height: 65px;
+	opacity: 1;
+	box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.75);
+}
+
+.navi > li > a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 40px;
+	font-family: "Baloo Paaji 2";
+}
+
+.navi > li > a:hover {
+	border-bottom: 2px solid #03AC13;
+}
+
+.navi {
+	/*margin-left: 10px;*/
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	white-space: nowrap;
+	height: 40px;
+	/*margin-left: 250px;*/
+}
+
+.panel {
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.save {
+	display: flex;
+	flex-direction: column;
+	margin-top: 180px;
+	margin-left: 60px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 37px;
+	letter-spacing: 0.02em;
+	font-family: "Baloo Paaji 2";
+}
+
+.btn {
+	text-decoration: none;
+	color: #028A0F;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	background: none;
+	border: 2px solid #028A0F;
+	border-radius: 5px;
+	text-align: center;
+	font-family: "Baloo Paaji 2";
+	transition: all 0.5s ease 0s;
+	overflow: hidden;
+}
+
+.btn:hover {
+	font-weight: 600;
+	border: 2px solid #028A0F;
+	background: #028A0F;
+	color: #fff;
+}
+
+.btn1 {
+	margin-top: 15px;
+	padding-top: 4px;
+	font-size: 21px;
+	width: 170px;
+	height: 40px;
+}
+
+.block2 {
+	height: 700px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+	overflow-y: hidden;
+}
+
+.col {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.company {
+	height: 400px;
+	margin-right: 15px;
+}
+
+.txt7 {
+	margin-left: 15px;
+	margin-top: -7px;
+	font-size: 18px;
+	font-family: "Baloo Paaji 2";
+}
+
+.txt6 {
+	color: #028A0F;
+	font-size: 25px;
+	margin-left: 25px;
+	font-family: "Baloo Paaji 2";
+}
+
+.btn2 {
+	height: 35px;
+	padding: 3px 20px 3px 20px;
+	margin-left: 15px;
+	margin-top: 20px;	
+	color: #fff;
+	background: #028A0F;
+}
+
+.btn2:hover {
+	color: #028A0F;
+	background: #fff;
+	font-weight: 600;
+}
+
+.raz1 {
+	width: 1600px;
+	height: 1px;
+	background: gray;
+	opacity: 0.2;
+	margin-top: 235px;
+}
+
+
+.block3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	height: 1600px;
+}
+
+.slider-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	position: relative;
+	overflow-y: hidden;
+	left: 0;
+	transition: all ease 1s;
+	width: fit-content;
+}
+
+/*.slider-problem {
+	height: 550px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	left: 0;
+	transition: all ease 1s;
+}*/
+
+.s-prob3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.some-club {
+	display: flex;
+	flex-direction: column;
+	transition: all 0.5s ease 0s;
+	margin-top: 220px;
+}
+
+.btn-s {
+	font-weight: 600;
+	margin-left: 50px;
+	color: #fff;
+	padding: 5px 0px 5px 0px;
+	background: #028A0F;
+	width: 240px;
+}
+
+.btn-s:hover {
+	background: none;
+	font-family: "Baloo Paaji 2";
+}
+
+.btn-s > a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.5s ease 0s;
+}
+
+.btn-s:hover > a {
+	text-decoration: none;
+	color: #028A0F;
+}
+
+.btn-share {
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-left: 50px;
+	/*border: 2px solid #028A0F;*/
+	background: none;
+	/*border-radius: 5px;*/
+	width: 240px;
+	height: 46px;
+	transition: all 0.5s ease 0s;
+	overflow: hidden;
+}
+
+.btn-share > a {
+	font-size: 18px; 
+	font-weight: 600;
+	color: #028A0F;
+	padding: 5px 0px 5px 0px;
+	text-decoration: none;
+	font-family: "Baloo Paaji 2";
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
+.share:after {
+	margin-left: 7px;
+	content: "\f1e0";
+	font-size: 20px;
+	font-family: "Icomoon", sans-serif;
+	color: #028A0F;
+}
+
+.btn-share:hover {
+	background: none;
+	height: 170px;
+}
+
+.s-club-social2 {
+	margin-top: 10px;
+}
+
+.soc1,
+.soc2,
+.soc3 {
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.soc4,
+.soc5 {
+	height: 27px;
+	width: 27px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.club-social {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.s-prob4{
+	align-items: center;
+}
+
+.prob {
+	display: flex;
+	flex-direction: column;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: 15px 15px 15px 15px;
+	float: left;
+	height: 450px;
+	overflow: hidden;
+	transition: all 0.5s ease 0s;
+}
+
+.prob:hover {
+	border-radius: 5px;
+	/*border: 1px solid #d3d3d3;*/
+	padding-top: 25px;
+	/*padding-bottom: 5px;*/
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.warming,
+.fishing,
+.energy,
+.deforestation,
+.w-pollution,
+.sprawl,
+.acid,
+.plastic,
+.ozone,
+.resource {
+	height: 250px;
+	width: 370px;
+}
+
+.txt8 {
+	color: #028A0F;
+	font-size: 25px;
+	font-family: "Baloo Paaji 2";
+}
+
+.txtZ {
+	width: 360px;
+	color: #028A0F;
+	margin-top: 15px;
+	font-family: "Baloo Paaji 2";
+}
+
+.txtY {
+	font-family: "Baloo Paaji 2";
+	font-size: 18px;
+}
+
+/*.prob4,
+.prob5,
+.prob6,
+.prob7,
+.prob8,
+.prob9,
+.prob10 {
+	display: none;
+} /*разберусь с этим, после подключения слайдера js*/
+
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9,
+.btn10,
+.btn11,
+.btn12 {
+	border: 2px solid #028A0F;
+	color: #fff;
+	padding: 3px 0px 3px 0px;
+	margin-top: 20px;
+	background: #028A0F;
+	width: 120px;
+}
+
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn9:hover,
+.btn10:hover,
+.btn11:hover,
+.btn12:hover {
+	background: none;
+	color: #028A0F;
+	font-family: "Baloo Paaji 2";
+}
+
+.raz2 {
+	width: 100%;
+	height: 1px;
+	background: gray;
+	opacity: 0.2;
+	/*margin-top: 70px;*/
+	position: absolute;
+	top: 3100px;
+}
+
+
+.block4 {
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+	margin-top: 50px;
+	height: 750px;
+	overflow-y: hidden;
+}
+
+.cont {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+}
+
+.some-block1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.some-block2 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.some-block1 > div {
+	margin-right: 40px;
+}
+
+.some-block2 > div {
+	margin-right: 40px;
+}
+
+.save-s1,
+.save-s2,
+.save-s3,
+.save-s4,
+.save-s5,
+.save-s6,
+.save-s7 {
+	overflow-y: hidden;
+}
+
+.img-s1,
+.img-s2,
+.img-s3,
+.img-s4,
+.img-s5,
+.img-s6,
+.img-s7 {
+	height: 65px; 
+	width: 65px;
+}
+
+.s-text1 {
+	color: #028A0F;
+    font-size: 25px;
+    font-family: "Baloo Paaji 2";	
+}
+
+.s-text2,
+.s-text4,
+.s-text6,
+.s-text8,
+.s-text10,
+.s-text12,
+.s-text14 {
+	font-size: 20px;
+	color: #028A0F;
+    margin-top: 15px;
+    font-family: "Baloo Paaji 2";
+}
+
+.s-text3,
+.s-text5,
+.s-text7,
+.s-text9,
+.s-text11,
+.s-text13,
+.s-text15 {
+	font-size: 16px;
+	font-family: "Baloo Paaji 2";
+}
+
+.btn13 {
+	color: #fff;
+	padding: 3px 20px 3px 20px;
+	margin-top: 50px;
+	background: #028A0F;
+	width: 120px;
+}
+
+.btn13:hover {
+	background: none;
+	color: #028A0F;
+	font-family: "Baloo Paaji 2";
+}
+
+.raz3 {
+	width: 1600px;
+	height: 1.5px;
+	background: gray;
+	opacity: 0.2;
+	margin-top: 76px;
+}
+
+.block5 {
+	margin-top: -5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 650px;
+	overflow-y: hidden;
+}
+
+form {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+}
+
+legend {
+	font-size: 20px;
+	font-family: "Baloo Paaji 2";
+	line-height: 130%;
+	overflow-y: hidden;
+}
+
+.login,
+.email,
+.password {
+	font-family: "Baloo Paaji 2";
+	font-size: 18px;
+	color: #808080;
+	height: 40px;
+	width: 250px;
+	padding-left: 7px;
+	border-radius: 5px;
+	box-shadow: none;
+	border: 1px solid #808080;
+	margin-top: 15px;
+}
+
+.login {
+	margin-top: 15px;
+}
+
+.submit {
+	height: 43px;
+	width: 120px;
+	font-weight: 600;
+	border: 2px solid #028A0F;
+	color: #fff;
+	margin-top: 15px;
+	background: #028A0F;
+}
+
+.submit:hover {
+	background: none;
+	color: #028A0F;
+	font-family: "Baloo Paaji 2";
+}
+
+
+.popup {
+    width: 100%;
+    height: 2000px;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.popup .popup-content {
+    margin: 190px auto auto auto;
+    width: 350px;
+    height: 160px;
+    padding: 20px;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.popup-text1 {
+	font-size: 20px;
+	font-family: "Baloo Paaji 2"
+}
+
+.popup-text2 {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: "Baloo Paaji 2"
+}
+
+.smile {
+	height: 30px;
+	margin-bottom: -7px;
+	padding-left: 3px;
+}
+
+.popup-btn {
+	text-align: center;
+	height: 45px;
+	width: 70px;
+	font-family: "Baloo Paaji 2";
+	font-size: 18px;
+	font-weight: 600;
+	border: 2px solid #028A0F;
+	color: #fff;
+	margin-top: 5px;
+	text-decoration: none;
+	background: #028A0F;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
+.popup-btn:hover {
+	background: none;
+	color: #028A0F;
+	font-family: "Baloo Paaji 2";
+}
+
+.block-save {
+	display: flex;
+	flex-direction: row;
+}
+
+.some-btn-club {
+	margin-top: -10px;
+}
+
+.some-text1 {
+	margin-top: 50px;
+	color: #028A0F;
+    font-size: 25px;
+    font-family: "Baloo Paaji 2";
+}
+
+.aEarth {
+	margin-right: 90px;
+	display: flex;
+	flex-direction: column;
+}
+
+.req {
+	margin-top: -10px;
+	height: 130px;
+	width: 3px;
+	background: #028A0F;
+}
+
+.some-text2 {
+	font-size: 30px; 
+	font-family: "Knewave";
+	font-weight: 200;
+	color: #028A0F;
+}
+
+.some-text3 {
+	font-size: 50px;
+	font-family: "Anton";
+	text-transform: uppercase;
+}
+
+.txt-club {
+	margin-top: 10px;
+	margin-left: 90px;
+}
+
+.some-text4 {
+    font-size: 18px;
+    font-family: "Baloo Paaji 2";
+}
+
+.some-text5 {
+	font-size: 22px;
+    font-family: "Baloo Paaji 2";
+    font-weight: 600;
+}
+
+
+.futer {
+	margin-top: 20px;
+	height: 200px;
+	width: 100%;
+	background: #006400;
+}
+
+.logotype1 {
+	height: 35px;
+	margin-right: 7px;
+	cursor: pointer;
+	margin-top: -2px;
+}
+
+.text1 {
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: -2px;
+	font-family: "Baloo Paaji 2";
+	white-space: nowrap;
+}
+
+.logo {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+
+/*.social > a {
+	height: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+}*/
+
+.facebook,
+.youtube,
+.instagram {
+	height: 35px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.social {
+	width: 100%;
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	margin-right: 25px;
+}
+
+.up-block {
+	margin-left: 25px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.wrapper-futer > li > a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	margin-right: 40px;
+	font-family: "Baloo Paaji 2";
+}
+
+.wrapper-futer > li > a:hover,
+.down-down-block > a:hover {
+	border-bottom: 1.5px solid #fff;
+}
+
+.wrapper-futer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 60px;
+}
+
+.down-down-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.down-down-block > a {
+	font-family: "Baloo Paaji 2";
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.down-down-block > a:before {
+	font-family: "Icomoon", sans-serif;
+	content: "\f1f9";
+	margin-right: 7px;
+	align-items: center;
+}
+
+
+
+@media (max-width: 1400px) {
+	.warming,
+	.fishing,
+	.energy,
+	.deforestation,
+	.w-pollution,
+	.sprawl,
+	.acid,
+	.plastic,
+	.ozone,
+	.resource {
+		height: 220px;
+		width: 360px;
+	}
+
+	.txtY {
+		font-size: 16px;
+	}
+
+	.txt4 {
+			margin-left: 20px;
+		}
+}
+
+@media (max-width: 1324px) {
+	.prob {
+		width: 350px;
+		padding-bottom: 20px;
+	}
+
+	.prob5,
+	.prob8 {
+		height: 475px;
+	}
+
+	.warming,
+	.fishing,
+	.energy,
+	.deforestation,
+	.w-pollution,
+	.sprawl,
+	.acid,
+	.plastic,
+	.ozone,
+	.resource {
+		height: 220px;
+		width: 350px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.txt {
+		font-size: 20px;
+	}
+
+	.txt8 {
+		overflow-y: hidden;
+	}
+
+	.navi > li > a {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 1250px) {
+	.block3 {
+		overflow-y: hidden;
+		height: 2500px;
+		margin-top: -10px;
+	}
+	.panel {
+		padding-top: 5px;
+		margin-right: 20px;
+	}
+
+	.menu-wrapper {
+		margin-right: 20px;
+	}
+
+	.txt4 {
+		margin-left: 20px;
+	}
+
+	.txt7 {
+		font-size: 16px;
+	}
+
+	.company {
+		height: 350px;
+	}
+
+	.prob {
+		margin-top: 30px;
+		padding-bottom: 25px;
+	}
+
+	.warming,
+	.fishing,
+	.energy,
+	.deforestation,
+	.w-pollution,
+	.sprawl,
+	.acid,
+	.plastic,
+	.ozone,
+	.resource {
+		height: 220px;
+		width: 320px;
+	}
+
+	.txtY {
+		font-size: 14px;
+	}
+
+	.some-text2 {
+		font-size: 25px; 
+	}
+
+	.some-text3 {
+		font-size: 42px;
+	}
+
+	.some-text4 {
+		font-size: 16px;
+	}
+
+	.some-text5 {
+		font-size: 20px;
+	}
+
+	.req {
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+
+	.navi {
+		margin-right: 30px;
+	}
+
+	/*.prob6 {
+		position: absolute;
+		top: 520px;
+		left: 440px;
+	}
+
+	.s-prob3 {
+		flex-direction: column;
+	}
+
+	.some-club {
+		margin-top: 80px;
+		align-items: center;
+	}*/
+
+/*	.prob3,
+	.prob6 {
+		position: absolute;
+		top: 200px;
+	}*/
+}
+
+@media (max-width: 1200px) {
+	.panel {
+		display: none;
+	}
+
+	.panel:after {
+		font-family: "Icomoon", sans-serif;
+		content: "\e5d2";
+		color: #ffffff;
+		font-size: 25px;
+		display: flex;
+		justify-content: flex-end;
+		margin-top: -7px;
+		padding-left: 20px;
+	}
+
+}
+
+@media (max-width: 900px) {
+	.txt5 {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 700px) {
+
+}
